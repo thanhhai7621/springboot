@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 @SuppressWarnings("serial")
 @Entity
-@Table(name = "WORKTASK")
+@Table(name = "worktask")
 /**
  * Table information work task : column idWork, WORK_NAME, START_DATE, END_DATE, STATUS
  * @author HaiDT3
