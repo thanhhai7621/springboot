@@ -123,6 +123,12 @@ public class WorkTaskController {
 
 		return new MessageInformationForm("Delete is success", "success");
 	}
+	
+	@RequestMapping("/message")
+	public MessageInformationForm message(@RequestParam MultiValueMap<String, String> params) {
+
+		return new MessageInformationForm("Hello", "success");
+	}
 
 	@RequestMapping("/insert")
 	public MessageInformationForm insert(@RequestParam MultiValueMap<String, String> params) {
